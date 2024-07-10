@@ -118,6 +118,13 @@ height: 280px;
 
 .inspiration-title{
     margin-bottom: 18px;
+    color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+font-size: 26px;
+font-weight: 800;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
 }
 
 
@@ -155,9 +162,107 @@ height: 280px;
 }
 
 .lan-description{
-    margin: 24px 48px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: start;
 }
 
 .lan-title{
     margin-top: 150px;
 }
+
+.support{
+    background-image: url("assets/handshake.jpg");
+    background-position: center;
+    
+    background-repeat: no-repeat;
+
+    padding: 70px;
+    margin: 45px 150px 50px 150px;
+
+    border-radius: 16px;
+
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 150px 24px 150px;
+
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+
+.support-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.text-style{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.support-box{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+height: 50px;
+width: 350px;
+background: rgb(255, 255, 255);
+
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0%;
+text-align: start;
+border: none;
+}
+
+.submit-button{
+    height: 50px;
+    width: 100px;
+    margin: 0px 16px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+
+.title-descriptions{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+
